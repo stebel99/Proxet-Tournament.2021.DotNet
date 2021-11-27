@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
@@ -8,11 +8,18 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Proxet.Tournament.BLL\Proxet.Tournament.BLL.csproj" />
+      <ProjectReference Include="..\..\Proxet.Tournament.DAL\Proxet.Tournament.DAL.csproj" />
       <ProjectReference Include="..\Proxet.Tournament\Proxet.Tournament.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoFixture" Version="4.17.0" />
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="DeepEqual" Version="2.0.0" />
+      <PackageReference Include="FakeItEasy" Version="4.1.0" />
       <PackageReference Include="FluentAssertions" Version="6.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.8" />
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
       <PackageReference Include="xunit" Version="2.4.1" />
       <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">

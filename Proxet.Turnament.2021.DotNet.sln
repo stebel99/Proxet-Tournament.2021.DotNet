@@ -11,12 +11,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D190D51-208
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA92491A-4B12-4103-B747-93692678BA06}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.gitignore = .gitignore
 		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
-		.dockerignore = .dockerignore
 		ReadMe.md = ReadMe.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxet.Tournament.WebApi", "Proxet.Tournament.WebApi\Proxet.Tournament.WebApi.csproj", "{BDB4011C-77E7-483D-AAF6-55948C2C91FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxet.Tournament.DAL", "Proxet.Tournament.DAL\Proxet.Tournament.DAL.csproj", "{0CBBACE7-227B-4C25-B399-5AB540CC561B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxet.Tournament.BLL", "Proxet.Tournament.BLL\Proxet.Tournament.BLL.csproj", "{AF95A0FD-C5FC-4829-8464-36F80C1EEE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxet.Tournament.DatabaseInitialization", "Proxet.Tournament.DatabaseInitialization\Proxet.Tournament.DatabaseInitialization.csproj", "{524DB398-E99A-409A-B78C-E3EC0000AB3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +40,22 @@ Global
 		{4F3EF69B-13F8-4FDA-B214-BF15E8DF761F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3EF69B-13F8-4FDA-B214-BF15E8DF761F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3EF69B-13F8-4FDA-B214-BF15E8DF761F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB4011C-77E7-483D-AAF6-55948C2C91FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB4011C-77E7-483D-AAF6-55948C2C91FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB4011C-77E7-483D-AAF6-55948C2C91FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB4011C-77E7-483D-AAF6-55948C2C91FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBBACE7-227B-4C25-B399-5AB540CC561B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBBACE7-227B-4C25-B399-5AB540CC561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBBACE7-227B-4C25-B399-5AB540CC561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBBACE7-227B-4C25-B399-5AB540CC561B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF95A0FD-C5FC-4829-8464-36F80C1EEE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF95A0FD-C5FC-4829-8464-36F80C1EEE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF95A0FD-C5FC-4829-8464-36F80C1EEE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF95A0FD-C5FC-4829-8464-36F80C1EEE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524DB398-E99A-409A-B78C-E3EC0000AB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524DB398-E99A-409A-B78C-E3EC0000AB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524DB398-E99A-409A-B78C-E3EC0000AB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524DB398-E99A-409A-B78C-E3EC0000AB3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +63,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{765EE2F5-5F1E-43C5-8797-F27949A3BB55} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
 		{4F3EF69B-13F8-4FDA-B214-BF15E8DF761F} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
+		{BDB4011C-77E7-483D-AAF6-55948C2C91FB} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
+		{0CBBACE7-227B-4C25-B399-5AB540CC561B} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
+		{AF95A0FD-C5FC-4829-8464-36F80C1EEE95} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
+		{524DB398-E99A-409A-B78C-E3EC0000AB3C} = {0D190D51-208C-492F-ACC2-B52B25D74EDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7074A256-4BD4-41A6-B9B4-4FE2C578FD25}
